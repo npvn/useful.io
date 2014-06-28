@@ -1,5 +1,12 @@
 {
   "packages": {
-    "iron-router": {}
+    "useful": {
+      "git": "git@github.com:usefulio/meteor-useful-package.git",
+      "branch": "master"
+    },
+    "pnotify": {
+      "git": "git@github.com:usefulio/meteor-pnotify.git",
+      "branch": "master"
+    }
   }
 }

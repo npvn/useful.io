@@ -2,13 +2,55 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "iron-router": {}
+      "useful": {
+        "git": "git@github.com:usefulio/meteor-useful-package.git",
+        "branch": "master"
+      },
+      "pnotify": {
+        "git": "git@github.com:usefulio/meteor-pnotify.git",
+        "branch": "master"
+      }
     },
     "packages": {
+      "useful": {
+        "git": "git@github.com:usefulio/meteor-useful-package.git",
+        "branch": "master",
+        "commit": "2b2608f45a03bb8c45fa65975e92ee740c3b8240"
+      },
+      "pnotify": {
+        "git": "git@github.com:usefulio/meteor-pnotify.git",
+        "branch": "master",
+        "commit": "e9579e71c13bbb8a72c1fd8547424559e5f756a2"
+      },
+      "collection-hooks": {
+        "git": "https://github.com/matb33/meteor-collection-hooks.git",
+        "tag": "v0.6.3",
+        "commit": "70f2598bf991cb36effd72aea2555cba96f88355"
+      },
       "iron-router": {
-        "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.6.1",
-        "commit": "4e1ee0581d68bff422a915dacb0bd30eae10fe08"
+        "git": "git://github.com/EventedMind/iron-router.git",
+        "tag": "v0.7.0",
+        "commit": "05f34bc48c4cad9fdaa366c1ddcabe6980232ece"
+      },
+      "iron-router-helpers": {
+        "git": "git://github.com/EventedMind/iron-router-helpers.git",
+        "tag": "master",
+        "commit": "750b0400fc877dc75bf92c88fe0edf4a0566a04d"
+      },
+      "moment-with-langs": {
+        "git": "https://github.com/jeeeyul/meteor-moment-with-langs.git",
+        "tag": "v2.5.1",
+        "commit": "75f725898f6d5c3dddc54f1f619fe3b184f596a2"
+      },
+      "font-awesome": {
+        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
+        "tag": "v4.1.0",
+        "commit": "ce6b1e92715d1938babc5d69c655c17e387f5926"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.2",
+        "commit": "8bc53798fe5965669ae67c72f91829fcfdceabfd"
       }
     }
   }
