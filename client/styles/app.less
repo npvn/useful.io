@@ -120,6 +120,7 @@ section {
 			opacity: 0;
 			color: #FFF;
 			padding-top: 12px;
+			overflow-y: scroll;
 		}
 		&:hover {
 			.category {
@@ -173,11 +174,60 @@ section {
 	}
 }
 
-#projects {
+#engagement {
 	background: #b3e5fc;
 	text-align: center;
 	.btn-large {
 		margin-top: 20px;
+	}
+}
+
+#projects {
+	h1 {
+		text-align: center;
+		.text-muted;
+		margin-bottom: 20px;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	.col-sm-3 {
+		min-height: 200px;
+		text-align: center;
+		.transition(0.3s);
+		&:hover {
+			.scale(1.02, 1.02);
+			z-index: 1;
+			box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px 0px;
+		}
+	}
+	#flavorplease {
+		background: #e91e63;
+		color: #FFF;
+		.year {
+			color: #f8bbd0
+		}
+	}
+	#personal-capital {
+		background: #3f51b5;
+		color: #FFF;
+		.year {
+			color: #c5cae9
+		}
+	}
+	#blurb {
+		background: #03a9f4;
+		color: #FFF;
+		.year {
+			color: #b3e5fc
+		}
+	}
+	#vokle {
+		background: #e51c23;
+		color: #FFF;
+		.year {
+			color: #f9bdbb
+		}
 	}
 }
 
