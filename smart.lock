@@ -9,7 +9,8 @@
       "pnotify": {
         "git": "git@github.com:usefulio/meteor-pnotify.git",
         "branch": "master"
-      }
+      },
+      "GAnalytics": {}
     },
     "packages": {
       "useful": {
@@ -21,6 +22,11 @@
         "git": "git@github.com:usefulio/meteor-pnotify.git",
         "branch": "master",
         "commit": "e9579e71c13bbb8a72c1fd8547424559e5f756a2"
+      },
+      "GAnalytics": {
+        "git": "https://github.com/datariot/meteor-ganalytics.git",
+        "tag": "v0.2.0",
+        "commit": "2d5e48d5cc4c2f88edd40c0b2341d378bd4a702b"
       },
       "collection-hooks": {
         "git": "https://github.com/matb33/meteor-collection-hooks.git",
