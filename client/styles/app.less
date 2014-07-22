@@ -52,7 +52,6 @@ section {
 		transition: 0.3s;
 		&:hover {
 			box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-			color: #9e9d24;
 		}
 	}
 	.company-name {
@@ -95,46 +94,88 @@ section {
 			top: 5%;
 			left: 5%;
 			opacity: 0;
-			color: #FFF;
 			padding-top: 12px;
 			overflow-y: auto;
 		}
 		&:hover {
-			.category {
-				color: #039be5;
-			}
 			.details {
 				opacity: 1;
 				transition: 0.3s;
 			}
-			color: @text-color;
-			background: @brand-primary !important;
 			.scale(1.02, 1.02);
 			z-index: 1;
 			box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 		}
 		&.meteor {
 			background: #9e9e9e;
+            &:hover {
+              .category {
+                color: #8e8e8e;
+              }
+              .details {
+                color: #ffffff;
+              }
+            }
 		}
 
 		&.servers {
 			background: #bdbdbd;
+            &:hover {
+              .category {
+                color: #aaaaaa;
+              }
+              .details {
+                color: #ffffff;
+              }
+            }
 		}
 
 		&.database {
 			background: #e0e0e0;
+            &:hover {
+              .category {
+                color: #cacaca;
+              }
+              .details {
+                color: rgba(0, 0, 0, 0.87);
+              }
+            }
 		}
 
 		&.testing {
 			background: #eeeeee;
+            &:hover {
+              .category {
+                color: #d6d6d6;
+              }
+              .details {
+                color: rgba(0, 0, 0, 0.87);
+              }
+            }
 		}
 
 		&.performance {
 			background: #f5f5f5;
+            &:hover {
+              .category {
+                color: #dcdcdc;
+              }
+              .details {
+                color: rgba(0, 0, 0, 0.87);
+              }
+            }
 		}
 
 		&.project-management {
 			background: #fafafa;
+            &:hover {
+              .category {
+                color: #e1e1e1;
+              }
+              .details {
+                color: rgba(0, 0, 0, 0.87);
+              }
+            }
 		}
 	}
 }
@@ -179,6 +220,8 @@ section {
 	background: #b3e5fc;
 	text-align: center;
 	.btn-large {
+        background: @brand-primary;
+        border: none;
 		margin-top: 20px;
         transition: 0.3s;
         box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
